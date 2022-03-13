@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="dm_mobile">
+        <item name="android:textSize">
+            34sp
+        </item>
+
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+</resources>

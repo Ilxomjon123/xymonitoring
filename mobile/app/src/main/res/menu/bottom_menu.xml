@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home1"
+        android:icon="@drawable/ic_group_9"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/home2"
+        android:icon="@drawable/group_16"
+        android:title="Monitoring" />
+
+    <item
+        android:id="@+id/home3"
+        android:icon="@drawable/group_15"
+        android:title="Monitoring" />
+
+    <item
+        android:id="@+id/home4"
+        android:icon="@drawable/group_17"
+        android:title="Video" />
+
+    <item
+        android:id="@+id/home5"
+        android:icon="@drawable/group_18"
+        android:title="Help" />
+</menu>

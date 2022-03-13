@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_host"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.hack.Fragment.Home_fragment"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_monitoring"
+            app:destination="@id/monitoring" />
+        <action
+            android:id="@+id/action_homePage_to_graphic"
+            app:destination="@id/graphic" />
+        <action
+            android:id="@+id/action_homePage_to_video"
+            app:destination="@id/video" />
+        <action
+            android:id="@+id/action_homePage_to_help_fragment"
+            app:destination="@id/help_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/monitoring"
+        android:name="com.example.hack.Fragment.Monitoring"
+        android:label="fragment_monitoring"
+        tools:layout="@layout/fragment_monitoring" />
+    <fragment
+        android:id="@+id/graphic"
+        android:name="com.example.hack.Fragment.Graphic"
+        android:label="fragment_graphic"
+        tools:layout="@layout/fragment_graphic" />
+    <fragment
+        android:id="@+id/video"
+        android:name="com.example.hack.Fragment.Video"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/help_fragment"
+        android:name="com.example.hack.Fragment.Help_fragment"
+        android:label="fragment_help_fragment"
+        tools:layout="@layout/fragment_help_fragment" />
+</navigation>
